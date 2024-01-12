@@ -1,7 +1,10 @@
+
+  <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
+
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>C Ducs Catering Services System</h3>
@@ -22,7 +25,7 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Address</h4>
             <p>
-              Tabogon, Cebu City, <br>
+              LInao, Ormoc City <br>
               Philippines<br><br>
             </p>
 
@@ -31,8 +34,17 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Contact</h4>
             <strong>Phone:</strong> +639123456789<br>
-            <strong>Email:</strong> sonerwin12@gmail.com<br>
+            <strong>Email:</strong> jon@gmail.com<br>
           </div>
+
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div> -->
 
         </div>
       </div>
@@ -42,6 +54,7 @@
       <div class="copyright">
         &copy; Copyright <strong><span>C Ducs Catering Services System</span></strong>. All Rights Reserved
       </div>
+
     </div>
   </footer><!-- End Footer -->
 
@@ -49,13 +62,16 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="theme/assets-homepage/vendor/aos/aos.js"></script>
-  <script src="theme/assets-homepage/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="theme/assets-homepage/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="theme/assets-homepage/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="theme/assets-homepage/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="theme/assets-homepage/vendor/php-email-form/validate.js"></script>
+  <script src="../assets-homepage/vendor/aos/aos.js"></script>
+  <script src="../assets-homepage/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets-homepage/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets-homepage/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets-homepage/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets-homepage/vendor/php-email-form/validate.js"></script>
+
   <!-- Template Main JS File -->
-  <script src="theme/assets-homepage/js/main.js"></script>
+  <script src="../assets-homepage/js/main.js"></script>
+
 </body>
+
 </html>

@@ -1,5 +1,5 @@
-<?php 
-	
+<?php
+
 	session_start();
 	include 'config.php';
 
@@ -36,7 +36,7 @@
 		          $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 		          $uploadOk = 1;
 		          $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-        
+
 
                   // Allow certain file formats
                   if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg" && $imageFileType != "gif" ) {
@@ -53,7 +53,7 @@
                   } else {
 
                       if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-                     	
+
                       	$save = mysqli_query($conn, "INSERT INTO users (user_firstname, user_middlename, user_lastname, user_suffix, gender, address, email, contact, password, image, date_registered) VALUES ('$firstname', '$middlename', '$lastname', '$suffix', '$gender', '$address', '$email', '$contact', '$password', '$file','$date_registered')");
 
                             if($save) {
@@ -64,15 +64,15 @@
 																					$row = mysqli_fetch_array($fetch);
 																					if($row['email'] === $email && $row['password'] === $password) {
 																						$_SESSION['user_Id'] = $row['user_Id'];
-																						header("Location: Users2/index.php");
+																						header("Location: authenticated_user/index.php");
 																					} else {
 																		                $_SESSION['success']  = "User information has been successfully saved!";
-				                            								header("Location: index.php");  
+				                            								header("Location: index.php");
 																					}
 
 																			} else {
 																						$_SESSION['success']  = "User information has been successfully saved!";
-				                            				header("Location: index.php");  
+				                            				header("Location: index.php");
 																			}
 
                             } else {

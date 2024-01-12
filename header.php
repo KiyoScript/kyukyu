@@ -4,7 +4,7 @@
   if(isset($_SESSION['admin_Id'])) {
       header('Location: Admin/dashboard.php');
   } elseif(isset($_SESSION['user_Id'])) {
-      header('Location: Users2/index.php');
+      header('Location: authenticated_user/index.php');
   } else {
 ?>
 

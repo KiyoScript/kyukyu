@@ -1,9 +1,12 @@
-<?php include 'views/unauthenticated_user/header.php'; ?>
-<section id="hero" class="d-flex align-items-center">
+<?php include 'header.php'; ?>
+
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to <span>E-Catering Reservation</span></h1>
+          <h1>Welcome to <span>C Ducs Catering Services</span></h1>
           <h2>Delivering great food for more than 18 years!</h2>
 
           <div class="btns">
@@ -18,14 +21,18 @@
       </div>
     </div>
   </section><!-- End Hero -->
+
   <main id="main">
+
+
+    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
-              <img src="theme/assets-homepage/img/about.jpg" alt="">
+              <img src="assets-homepage/img/about.jpg" alt="">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
@@ -48,7 +55,10 @@
         </div>
 
       </div>
-    </section>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
 
@@ -86,7 +96,11 @@
         </div>
 
       </div>
-    </section>
+    </section><!-- End Why Us Section -->
+
+
+
+    <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
 
@@ -120,10 +134,18 @@
             </div>
           </div>
           <?php } ?>
+
+
+
+
         </div>
 
       </div>
-    </section>
+    </section><!-- End Why Us Section -->
+
+
+
+    <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -131,6 +153,17 @@
           <h2>Menu</h2>
           <p>Check Our Tasty Menu</p>
         </div>
+
+        <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-starters">Starters</li>
+              <li data-filter=".filter-salads">Salads</li>
+              <li data-filter=".filter-specialty">Specialty</li>
+            </ul>
+          </div>
+        </div> -->
 
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -163,21 +196,104 @@
           </div>
 
         <?php } ?>
+
+         <!--  <div class="col-lg-6 menu-item filter-specialty">
+            <img src="assets-homepage/img/menu/bread-barrel.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Bread Barrel</a><span>$6.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets-homepage/img/menu/cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Crab Cake</a><span>$7.95</span>
+            </div>
+            <div class="menu-ingredients">
+              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets-homepage/img/menu/caesar.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Caesar Selections</a><span>$8.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="assets-homepage/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets-homepage/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Mozzarella Stick</a><span>$4.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets-homepage/img/menu/greek-salad.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Greek Salad</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets-homepage/img/menu/spinach-salad.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Spinach Salad</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="assets-homepage/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Lobster Roll</a><span>$12.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+            </div>
+          </div> -->
+
         </div>
 
       </div>
-    </section>
-    <style>
-      input.form-control {
-        background-color: transparent;
-        border: 1px solid #ffdd99;
-        box-shadow: none;
-        color: white;
-      }
-      .login {
-        background-color: #ffd480;
-      }
-    </style>
+    </section><!-- End Menu Section -->
+<style>
+  input.form-control {
+    background-color: transparent;
+    border: 1px solid #ffdd99;
+    box-shadow: none;
+    color: white;
+  }
+  .login {
+    background-color: #ffd480;
+  }
+</style>
+
+    <!-- ======= Book A Table Section ======= -->
     <section id="book-a-table" class="book-a-table">
       <div class="container" data-aos="fade-up">
 
@@ -186,7 +302,7 @@
           <p>Register to schedule a reservation</p>
         </div>
 
-        <form action="controller/user/create.php" method="post" role="form" data-aos="fade-up" data-aos-delay="100" enctype="multipart/form-data">
+        <form action="regsiter_code.php" method="post" role="form" data-aos="fade-up" data-aos-delay="100" enctype="multipart/form-data">
           <div class="row">
 
             <div class="col-lg-3 col-md-3 form-group mt-3">
@@ -238,20 +354,38 @@
             </div>
 
           </div>
+          <!-- <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+            <div class="validate"></div>
+          </div> -->
+          <!-- <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+          </div> -->
           <div class="text-center mt-5"><button type="submit" class="btn mt-4 rounded-pill login text-dark" name="register">Register</button></div>
         </form>
 
       </div>
     </section>
-  </main>
-<?php include 'views/unauthenticated_user/footer.php'; ?>
+    <!-- End Book A Table Section -->
+  </main><!-- End #main -->
+<?php include 'footer.php'; ?>
+
+
 <?php
-  function custom_echo($x, $length) {
-    if(strlen($x)<=$length){
-      echo $x;
-    } else {
-      $y=substr($x,0,$length) . '...';
-      echo $y;
-    }
+
+  function custom_echo($x, $length)
+{
+  if(strlen($x)<=$length)
+  {
+    echo $x;
   }
+  else
+  {
+    $y=substr($x,0,$length) . '...';
+    echo $y;
+  }
+}
+
 ?>

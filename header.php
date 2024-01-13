@@ -76,7 +76,6 @@
           <li><a class="nav-link scrollto" href="index.php?#about">About</a></li>
           <li><a class="nav-link scrollto" href="index.php?#menu">Menu</a></li>
           <!-- <li><a class="nav-link scrollto" href="#specials">Specials</a></li> -->
-          <li><a class="nav-link scrollto" href="index.php?#events">Events</a></li>
           <li><a class="nav-link scrollto" href="login.php">Login</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>

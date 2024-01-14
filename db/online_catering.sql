@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
   `email` varchar(255) NOT NULL,
   `contact` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `image` varchar(255) NOT NULL,
+  `image` varchar(255) NULL,
   `date_registered` date NOT NULL,
   `user_type` varchar(255) NOT NULL DEFAULT 'Admin'
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 AUTO_INCREMENT=3 ;
@@ -49,8 +49,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`admin_Id`, `firstname`, `middlename`, `lastname`, `suffix`, `gender`, `dob`, `age`, `address`, `email`, `contact`, `password`, `image`, `date_registered`, `user_type`) VALUES
-(1, 'Jon', 'Pacatang', 'D', '', 'Male', '2024-01-12', 23, 'Purok 12, Linao Ormoc City', 'admin@gmail.com', '09123456789', 'jon@Admin123', 'none', '2024-01-12', 'Admin')
--- --------------------------------------------------------
+                    (1, 'Jon', 'daloer', 'Pacatang', '', 'Male', '2024-01-12', 23, 'Purok 12, Linao Ormoc City', 'jon@Admin123', '09123456789', 'admin123', '', '2024-01-12', 'Admin');
 
 --
 -- Table structure for table `cart`

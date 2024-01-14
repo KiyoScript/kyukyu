@@ -302,7 +302,7 @@
           <p>Register to schedule a reservation</p>
         </div>
 
-        <form action="regsiter_code.php" method="post" role="form" data-aos="fade-up" data-aos-delay="100" enctype="multipart/form-data">
+        <form action="register_code.php" method="post" role="form" data-aos="fade-up" data-aos-delay="100" enctype="multipart/form-data">
           <div class="row">
 
             <div class="col-lg-3 col-md-3 form-group mt-3">

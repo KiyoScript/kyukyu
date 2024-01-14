@@ -6,7 +6,7 @@
 	// ADMIN / EMPLOYER LOGIN
 	if(isset($_POST['login'])) {
 		$email    = $_POST['email'];
-		$password = md5($_POST['password']);
+		$password = $_POST['password'];
 
 		$check = mysqli_query($conn, "SELECT * FROM admin WHERE email='$email' AND password='$password' AND user_type='Admin'");
 		if(mysqli_num_rows($check)===1) {

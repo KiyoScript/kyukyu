@@ -333,7 +333,7 @@
             </div>
             <div class="modal-body">
               <form action="../logout.php" method="POST">
-                <input type="hidden" class="form-control" value="<?php echo $row['user_Id']; ?>" name="user_Id">
+                <input type="hidden" class="form-control" value="<?= $row['admin_Id'] ?>" name="admin_Id">
                 <?php if($row['gender'] === 'Male'):?>
                     <h6>Mr.   <?php echo $row['lastname'];?>, are you sure you want to logout?</h6>
                 <?php else: ?>

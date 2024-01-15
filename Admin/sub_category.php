@@ -87,15 +87,6 @@
                     <?php include 'sub_category_update_delete.php'; } ?>
 
                   </tbody>
-                  <tfoot>
-                      <tr>
-                        <th>Category name</th>
-                        <th>Sub-category name</th>
-                        <th>Sub-category description</th>
-                        <th>Date Created</th>
-                        <th>Tools</th>
-                      </tr>
-                  </tfoot>
                 </table>
               </div>
               <!-- /.card-body -->

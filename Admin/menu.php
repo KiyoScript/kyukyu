@@ -93,17 +93,6 @@
                     <?php include 'menu_update_delete.php'; } ?>
 
                   </tbody>
-                  <tfoot>
-                      <tr>
-                        <th>Image</th>
-                        <th>Category name</th>
-                        <th>Sub-category name</th>
-                        <th>Menu name</th>
-                        <th>Menu description</th>
-                        <th>Price</th>
-                        <th>Tools</th>
-                      </tr>
-                  </tfoot>
                 </table>
               </div>
               <!-- /.card-body -->
